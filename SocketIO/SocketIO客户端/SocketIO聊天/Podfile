@@ -1,0 +1,11 @@
+
+platform :ios, '9.0'
+
+target 'SocketIO聊天' do
+
+  use_frameworks!
+
+  pod 'Socket.IO-Client-Swift'
+
+
+end
