@@ -1,0 +1,12 @@
+
+platform :ios, '9.0'
+
+target 'SocketChat' do
+
+  use_frameworks!
+
+  pod 'Socket.IO-Client-Swift'
+
+
+
+end

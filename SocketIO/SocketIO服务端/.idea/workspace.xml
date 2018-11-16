@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117c7458-d1ee-4e6b-ae70-a3652bb97708" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketIO聊天/Pods/Pods.xcodeproj/xcuserdata/quanjunt.xcuserdatad/xcschemes/Socket.IO-Client-Swift.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketIO聊天/Pods/Pods.xcodeproj/xcuserdata/quanjunt.xcuserdatad/xcschemes/Socket.IO-Client-Swift.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketIO聊天/SocketIO聊天.xcworkspace/xcuserdata/quanjunt.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketIO聊天/SocketIO聊天.xcworkspace/xcuserdata/quanjunt.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket服务器.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket服务器.js" afterDir="false" />
-    </list>
+    <list default="true" id="117c7458-d1ee-4e6b-ae70-a3652bb97708" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,7 +15,7 @@
     <session id="1969720899">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="2" />
@@ -156,12 +151,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542250584486</updated>
       <workItem from="1542250585640" duration="3151000" />
-      <workItem from="1542338817581" duration="1156000" />
+      <workItem from="1542338817581" duration="1598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4307000" />
+    <option name="totallyTimeSpent" value="4749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="23" width="1138" height="1415" extended-state="0" />
@@ -173,7 +168,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32955405" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32955405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
