@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AC36F71BD7FF4EE7D8314F9853C0CFA0"
-               BuildableName = "SocketIO.framework"
+               BuildableName = "SocketIO&#x804a;&#x5929;.framework"
                BlueprintName = "Socket.IO-Client-Swift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC36F71BD7FF4EE7D8314F9853C0CFA0"
-            BuildableName = "SocketIO.framework"
+            BuildableName = "SocketIO&#x804a;&#x5929;.framework"
             BlueprintName = "Socket.IO-Client-Swift"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>

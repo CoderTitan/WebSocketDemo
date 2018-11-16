@@ -20,9 +20,10 @@ var serverSocket = socketio(server)
 serverSocket.on('connection', function (clientSocket) {
     // 建立socket连接成功
     console.log('建立连接成功')
+    console.log(clientSocket)
 
     // 建立聊天事件
-    clientSocket.onchecking('chat', function (data) {
+    clientSocket.on('chat', function (data) {
         // 客户端发送的数据
         // serverSocket:给所有连接到服务器的客户端发送数据
         // clientSocket:给当前客户端发送数据, 谁连接的给谁发
