@@ -13,6 +13,12 @@
 		77356983219D6C0600E78E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77356981219D6C0600E78E82 /* Main.storyboard */; };
 		77356985219D6C0900E78E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77356984219D6C0900E78E82 /* Assets.xcassets */; };
 		77356988219D6C0900E78E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77356986219D6C0900E78E82 /* LaunchScreen.storyboard */; };
+		77B79EB721A2856E0058E5E6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B79EB621A2856E0058E5E6 /* UserModel.swift */; };
+		77B79EB921A285750058E5E6 /* RoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B79EB821A285750058E5E6 /* RoomModel.swift */; };
+		77B79EBB21A2869A0058E5E6 /* TKMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B79EBA21A2869A0058E5E6 /* TKMessage.swift */; };
+		77B79EC121A289F30058E5E6 /* TKMessageChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B79EC021A289F30058E5E6 /* TKMessageChunk.swift */; };
+		77B79EC321A28ABA0058E5E6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B79EC221A28ABA0058E5E6 /* ChatViewController.swift */; };
+		77B79EC521A290280058E5E6 /* ClientSington.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B79EC421A290280058E5E6 /* ClientSington.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,13 @@
 		77356984219D6C0900E78E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77356987219D6C0900E78E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77356989219D6C0900E78E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B79EB621A2856E0058E5E6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		77B79EB821A285750058E5E6 /* RoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomModel.swift; sourceTree = "<group>"; };
+		77B79EBA21A2869A0058E5E6 /* TKMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKMessage.swift; sourceTree = "<group>"; };
+		77B79EBC21A287D20058E5E6 /* SocketChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocketChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		77B79EC021A289F30058E5E6 /* TKMessageChunk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKMessageChunk.swift; sourceTree = "<group>"; };
+		77B79EC221A28ABA0058E5E6 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		77B79EC421A290280058E5E6 /* ClientSington.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSington.swift; sourceTree = "<group>"; };
 		F8DCA8A0AF09A2C9F5D6D277 /* Pods-SocketChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocketChat/Pods-SocketChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,14 +91,45 @@
 		7735697C219D6C0600E78E82 /* SocketChat */ = {
 			isa = PBXGroup;
 			children = (
+				77B79EB321A285510058E5E6 /* Classes */,
 				7735697D219D6C0600E78E82 /* AppDelegate.swift */,
 				7735697F219D6C0600E78E82 /* ViewController.swift */,
 				77356981219D6C0600E78E82 /* Main.storyboard */,
 				77356984219D6C0900E78E82 /* Assets.xcassets */,
 				77356986219D6C0900E78E82 /* LaunchScreen.storyboard */,
 				77356989219D6C0900E78E82 /* Info.plist */,
+				77B79EBC21A287D20058E5E6 /* SocketChat-Bridging-Header.h */,
 			);
 			path = SocketChat;
+			sourceTree = "<group>";
+		};
+		77B79EB321A285510058E5E6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				77B79EB421A285510058E5E6 /* Constroller */,
+				77B79EB521A285510058E5E6 /* Models */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		77B79EB421A285510058E5E6 /* Constroller */ = {
+			isa = PBXGroup;
+			children = (
+				77B79EC221A28ABA0058E5E6 /* ChatViewController.swift */,
+			);
+			path = Constroller;
+			sourceTree = "<group>";
+		};
+		77B79EB521A285510058E5E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77B79EB621A2856E0058E5E6 /* UserModel.swift */,
+				77B79EB821A285750058E5E6 /* RoomModel.swift */,
+				77B79EBA21A2869A0058E5E6 /* TKMessage.swift */,
+				77B79EC021A289F30058E5E6 /* TKMessageChunk.swift */,
+				77B79EC421A290280058E5E6 /* ClientSington.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +166,7 @@
 				TargetAttributes = {
 					77356979219D6C0600E78E82 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -188,6 +233,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SocketChat/Pods-SocketChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 			);
@@ -195,6 +243,9 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 			);
@@ -210,8 +261,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B79EC121A289F30058E5E6 /* TKMessageChunk.swift in Sources */,
+				77B79EBB21A2869A0058E5E6 /* TKMessage.swift in Sources */,
+				77B79EB921A285750058E5E6 /* RoomModel.swift in Sources */,
+				77B79EC321A28ABA0058E5E6 /* ChatViewController.swift in Sources */,
 				77356980219D6C0600E78E82 /* ViewController.swift in Sources */,
+				77B79EB721A2856E0058E5E6 /* UserModel.swift in Sources */,
 				7735697E219D6C0600E78E82 /* AppDelegate.swift in Sources */,
+				77B79EC521A290280058E5E6 /* ClientSington.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +415,7 @@
 			baseConfigurationReference = F8DCA8A0AF09A2C9F5D6D277 /* Pods-SocketChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SocketChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -366,6 +424,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.candylink.www.SocketChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocketChat/SocketChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -376,6 +436,7 @@
 			baseConfigurationReference = 2A9E1814CAFB6A5F60E248CB /* Pods-SocketChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SocketChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -384,6 +445,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.candylink.www.SocketChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocketChat/SocketChat-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

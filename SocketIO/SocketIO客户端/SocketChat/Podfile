@@ -5,8 +5,9 @@ target 'SocketChat' do
 
   use_frameworks!
 
-  pod 'Socket.IO-Client-Swift'
-
+    pod 'Socket.IO-Client-Swift'
+    pod 'JSQMessagesViewController'
+    pod 'MJExtension'
 
 
 end

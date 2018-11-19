@@ -9,35 +9,36 @@
 import UIKit
 import SocketIO
 
+
+
 class ViewController: UIViewController {
 
-//    fileprivate var socket: SocketIOClient?
+    @IBOutlet weak var nameText: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        guard let url = URL(string: "ws://localhost:9090") else { return }
-        let manager = SocketManager(socketURL: url, config: nil)
-        let socket = manager.defaultSocket
-        
-        // 建立链接
-        socket.connect()
-        
-        // 监听是否链接成功, 建立连接成功, 服务器也会给客户端发送
-        socket.on(clientEvent: .connect) { (data, ack) in
-            print("链接成功")
-            
-            // 向服务器发送chat时间, 发送数据
-            socket.emit("chat", with: ["hello", "world"])
-        }
-        
-        socket.on("chat") { (data, ack) in
-            print(data)
-        }
-        
-        
         
     }
-
-
+    
 }
 
+
+extension ViewController {
+    @IBAction func jumpChatController(_ sender: UIButton) {
+        // 创建房间模型
+        let roomNme = "房间" + "\(sender.tag)"
+        let roomModel = RoomModel(name: roomNme)
+        
+        // 向服务器发送请求, x创建爱你房间
+        ClientSington.clientSocket.emit("joinRoom", with: [["roomID": roomModel.roomID, "roomName": roomModel.roomName]])
+        
+        // 创建用户
+        let user = UserModel(name: nameText.text ?? "")
+        user.roomName = roomModel.roomName
+        
+        let vc = ChatViewController()
+        vc.user = user
+        navigationController?.pushViewController(vc, animated: true)
+    }
+}

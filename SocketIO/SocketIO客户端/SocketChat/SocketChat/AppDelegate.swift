@@ -7,15 +7,25 @@
 //
 
 import UIKit
+import SocketIO
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // 建立socket连接
+        ClientSington.clientSocket.connect()
+        // 监听是否链接成功, 建立连接成功, 服务器也会给客户端发送
+        ClientSington.clientSocket.on("connect", callback: { (data, ack) in
+            print("连接成功")
+        })
+        
         return true
     }
 
