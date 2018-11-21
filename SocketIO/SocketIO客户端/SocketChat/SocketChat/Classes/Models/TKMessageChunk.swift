@@ -17,10 +17,13 @@ class TKMessageChunk: NSObject {
     var roomName = ""
 
     
-    init(ID: String, displayName: String, text: String, date: String) {
-        senderID = ID
-        senderDisplayName = displayName
-        dateStr = date
-        textStr = text
+    
+    
+    init(dict: [String: Any]) {
+        senderID = dict["senderId"] as? String ?? ""
+        senderDisplayName = dict["senderDisplayName"] as? String ?? ""
+        dateStr = dict["dateStr"] as? String ?? ""
+        textStr = dict["text"] as? String ?? ""
+        roomName = dict["roomName"] as? String ?? ""
     }
 }

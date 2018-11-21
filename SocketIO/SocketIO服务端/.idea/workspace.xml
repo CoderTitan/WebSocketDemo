@@ -2,35 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117c7458-d1ee-4e6b-ae70-a3652bb97708" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/Classes/Constroller/ChatViewController.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/Classes/Models/ClientSington.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/Classes/Models/RoomModel.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/Classes/Models/TKMessage.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/Classes/Models/TKMessageChunk.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/Classes/Models/UserModel.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/SocketChat-Bridging-Header.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket聊天室.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Manifest.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Pods.xcodeproj/xcuserdata/quanjunt.xcuserdatad/xcschemes/Pods-SocketChat.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Pods.xcodeproj/xcuserdata/quanjunt.xcuserdatad/xcschemes/Pods-SocketChat.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Pods.xcodeproj/xcuserdata/quanjunt.xcuserdatad/xcschemes/Socket.IO-Client-Swift.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Pods.xcodeproj/xcuserdata/quanjunt.xcuserdatad/xcschemes/Socket.IO-Client-Swift.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Pods.xcodeproj/xcuserdata/quanjunt.xcuserdatad/xcschemes/Starscream.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Pods.xcodeproj/xcuserdata/quanjunt.xcuserdatad/xcschemes/Starscream.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Pods.xcodeproj/xcuserdata/quanjunt.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Pods.xcodeproj/xcuserdata/quanjunt.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Target Support Files/Pods-SocketChat/Pods-SocketChat-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Target Support Files/Pods-SocketChat/Pods-SocketChat-acknowledgements.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Target Support Files/Pods-SocketChat/Pods-SocketChat-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Target Support Files/Pods-SocketChat/Pods-SocketChat-acknowledgements.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Target Support Files/Pods-SocketChat/Pods-SocketChat-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Target Support Files/Pods-SocketChat/Pods-SocketChat-frameworks.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Target Support Files/Pods-SocketChat/Pods-SocketChat.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Target Support Files/Pods-SocketChat/Pods-SocketChat.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Target Support Files/Pods-SocketChat/Pods-SocketChat.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/Pods/Target Support Files/Pods-SocketChat/Pods-SocketChat.release.xcconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat.xcodeproj/xcuserdata/quanjunt.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat.xcodeproj/xcuserdata/quanjunt.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat.xcworkspace/xcuserdata/quanjunt.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat.xcworkspace/xcuserdata/quanjunt.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat.xcworkspace/xcuserdata/quanjunt.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat.xcworkspace/xcuserdata/quanjunt.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/AppDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/Classes/Constroller/ChatViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/Classes/Constroller/ChatViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/Classes/Models/TKMessageChunk.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/Classes/Models/TKMessageChunk.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketIO客户端/SocketChat/SocketChat/ViewController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket聊天室.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket聊天室.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,10 +24,11 @@
     <session id="1969720899">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -63,37 +43,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1075" />
+          <entry key="js" value="1094" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1075" />
+          <entry key="JavaScript" value="1094" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket聊天室.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="56" column="36" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../../Quanjun/Titan课堂/课堂代码/04阶段/01/WebSocket/02-聊天室.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -109,8 +70,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/socket服务器.js" />
-        <option value="$PROJECT_DIR$/socket聊天室.js" />
         <option value="$PROJECT_DIR$/../../../../Quanjun/Titan课堂/课堂代码/04阶段/01/WebSocket/02-聊天室.js" />
+        <option value="$PROJECT_DIR$/socket聊天室.js" />
       </list>
     </option>
   </component>
@@ -142,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,7 +115,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.02-聊天室.js">
+  <component name="RunManager" selected="Node.js.socket聊天室.js">
     <configuration name="02-聊天室.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="02-聊天室.js" working-dir="$PROJECT_DIR$/../../../../Quanjun/Titan课堂/课堂代码/04阶段/01/WebSocket">
       <method v="2" />
     </configuration>
@@ -184,15 +145,18 @@
     <configuration name="socket聊天室.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="socket聊天室.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="socket聊天室.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="socket聊天室.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.socket服务器.js" />
-      <item itemvalue="Node.js.socket聊天室.js" />
       <item itemvalue="Node.js.02-聊天室.js" />
+      <item itemvalue="Node.js.socket聊天室.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.02-聊天室.js" />
         <item itemvalue="Node.js.socket聊天室.js" />
+        <item itemvalue="Node.js.02-聊天室.js" />
         <item itemvalue="Node.js.socket服务器.js" />
       </list>
     </recent_temporary>
@@ -209,16 +173,16 @@
       <updated>1542250584486</updated>
       <workItem from="1542250585640" duration="3151000" />
       <workItem from="1542338817581" duration="1598000" />
-      <workItem from="1542597441542" duration="7835000" />
+      <workItem from="1542597441542" duration="8346000" />
+      <workItem from="1542767852853" duration="4641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12584000" />
+    <option name="totallyTimeSpent" value="17736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1422" y="23" width="1138" height="1415" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18889883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -226,7 +190,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32955405" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.12773998" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -261,17 +225,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socket聊天室.js">
+    <entry file="file://$PROJECT_DIR$/../../../../Quanjun/Titan课堂/课堂代码/04阶段/01/WebSocket/02-聊天室.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="56" column="36" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="36" />
+        <state relative-caret-position="216">
+          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../Quanjun/Titan课堂/课堂代码/04阶段/01/WebSocket/02-聊天室.js">
+    <entry file="file://$PROJECT_DIR$/socket聊天室.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+        <state relative-caret-position="873">
+          <caret line="57" column="6" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
         </state>
       </provider>
     </entry>

@@ -19,7 +19,7 @@ var rooms = []
 
 
 // 监听是否连接成功
-serverSocket.on('connection', function (clientSocket) {
+serverSocket.on('connection',function(clientSocket){
     // 到这里说明连接成功
     console.log('连接成功')
 
@@ -60,5 +60,5 @@ serverSocket.on('connection', function (clientSocket) {
 
 
 // 监听服务器端号
-server.listen(9090)
+server.listen(8080)
 console.log('开始监听8080')

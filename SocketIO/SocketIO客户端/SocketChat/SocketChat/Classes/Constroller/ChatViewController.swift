@@ -13,8 +13,8 @@ class ChatViewController: JSQMessagesViewController {
     var user = UserModel(name: "")
     
     fileprivate var messageArr = [TKMessage]()
-    fileprivate var selfBundle: JSQMessagesBubbleImage!
-    fileprivate var otherBundle: JSQMessagesBubbleImage!
+    fileprivate var selfBundle = JSQMessagesBubbleImage(messageBubble: UIImage(), highlightedImage: UIImage())
+    fileprivate var otherBundle = JSQMessagesBubbleImage(messageBubble: UIImage(), highlightedImage: UIImage())
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +34,10 @@ class ChatViewController: JSQMessagesViewController {
         // 离开房间
         ClientSington.clientSocket.emit("leaveRoom", with: [user.roomName])
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        inputToolbar.inputView?.resignFirstResponder()
+    }
 
     
     /// 创建气泡
@@ -50,13 +54,12 @@ class ChatViewController: JSQMessagesViewController {
                   let dict = dicts.first else { return }
             
             // 获取消息包
-            guard let chunk = TKMessageChunk.mj_object(withKeyValues: dict) else { return }
-            
+            let chunk = TKMessageChunk(dict: dict)
             // 转换成TKMessage
             let fmt = DateFormatter()
             fmt.dateFormat = "yyyy-MM-dd HH:mm:ss"
             guard let date = fmt.date(from: chunk.dateStr) else { return }
-            guard let message = TKMessage.init(senderId: chunk.senderID, senderDisplayName: chunk.senderDisplayName, date: date, text: chunk.textStr) else { return }
+            guard let message = TKMessage(senderId: chunk.senderID, senderDisplayName: chunk.senderDisplayName, date: date, text: chunk.textStr) else { return }
             
             self.messageArr.append(message)
             self.collectionView.reloadData()
@@ -109,7 +112,7 @@ extension ChatViewController {
     override func collectionView(_ collectionView: JSQMessagesCollectionView!, messageBubbleImageDataForItemAt indexPath: IndexPath!) -> JSQMessageBubbleImageDataSource! {
         // 消息对象
         let msg = messageArr[indexPath.row]
-        if msg.senderDisplayName == user.userName {
+        if (msg.senderDisplayName ?? "") == user.userName {
             // 自己的消息
             return selfBundle
         }
@@ -128,16 +131,14 @@ extension ChatViewController {
     
     // 点击发送的时候调用
     override func didPressSend(_ button: UIButton!, withMessageText text: String!, senderId: String!, senderDisplayName: String!, date: Date!) {
+        
         // 传消息模型给服务器
         let fmt = DateFormatter()
         fmt.dateFormat = "yyyy-MM-dd HH:mm:ss"
         let dataStr = fmt.string(from: date)
         
-        let chunk = TKMessageChunk(ID: senderId, displayName: senderDisplayName, text: text, date: dataStr)
-        chunk.roomName = user.userName
-        
         // 发送给服务器
-        ClientSington.clientSocket.emit("msg", with: [["senderID": chunk.senderID, "dateStr": chunk.dateStr, "roomName": chunk.roomName, "senderDisplayName": chunk.senderDisplayName, "text": chunk.textStr]])
+        ClientSington.clientSocket.emit("msg", with: [["senderID": senderId, "dateStr": dataStr, "roomName": user.roomName, "senderDisplayName": senderDisplayName, "text": text]])
         
         // 清空输入文本框
         finishSendingMessage(animated: true)
